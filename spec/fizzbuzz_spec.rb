@@ -41,3 +41,14 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(14)).to eq 14
   end
 end
+
+describe 'fizzbuzz' do
+  it 'returns "2" when passed 2' do
+    expect(fizzbuzz(2)).to eq 2
+  end
+end
+describe 'fizzbuzz' do
+  it 'returns "17" when passed 17' do
+    expect(fizzbuzz(17)).to eq 17
+  end
+end

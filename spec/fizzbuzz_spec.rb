@@ -2,7 +2,7 @@ require '../lib/fizzbuzz'
 
 describe 'fizzbuzz' do
   it 'returns "fizz" when passed 3' do
-    expect(fizzbuzz(number)).to eq 'fizz'
+    expect(fizzbuzz(3)).to eq 'fizz'
   end
 end
 
@@ -15,5 +15,12 @@ end
 describe 'fizzbuzz' do
   it 'returns "fizzbuzz" when passed 15' do
     expect(fizzbuzz(15)).to eq 'fizzbuzz'
+  end
+end
+
+
+describe 'fizzbuzz' do
+  it 'returns "14" when passed 14' do
+    expect(fizzbuzz(14)).to eq 14
   end
 end
